@@ -1,0 +1,20 @@
+.user-page {
+    background-image: url('../../assets/glass-bld.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-30%);
+    }
+}
+
+.slide {
+    animation: 5s slide infinite linear;
+    /*background: #5589c4;*/
+}

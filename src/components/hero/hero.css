@@ -1,0 +1,26 @@
+.hero {
+    background-image: url('../../assets/network2-bg.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.awards {
+    background-image: url('../../assets/dark-blue-sky.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+@keyframes translateYAnimation {
+    from {
+        transform: translateY(50px);
+    }
+    to {
+        transform: translateY(-50px);
+    }
+}
+
+.earnings, .earningsTwo, .earningsThree {
+    animation: 4s translateYAnimation infinite alternate
+}
